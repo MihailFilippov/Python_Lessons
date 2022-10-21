@@ -1,5 +1,5 @@
 def get_name():
-    with open('Python_Lessons/Python_HW7/file.txt', 'r',encoding="utf-8") as f:
+    with open('file.txt', 'r',encoding="utf-8") as f:
         for line in f.readlines()[:1]:
             return (line.rstrip('\n')) 
         
